@@ -1,0 +1,899 @@
+Tvolume
+v7
+r0
+t313017602.072620
+cCheck dependencies
+cProcessInfoPlistFile /Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app/Info.plist volume-Info.plist
+cCpResource build/Debug-iphonesimulator/volume.app/Shader_texture.fsh Shaders/Shader_texture.fsh
+cCpResource build/Debug-iphonesimulator/volume.app/Shader_texture.vsh Shaders/Shader_texture.vsh
+cCompileXIB /Users/henrique/Documents/Tutorial6/MainWindow.xib
+cCompileXIB /Users/henrique/Documents/Tutorial6/Classes/../Tutorial6ViewController.xib
+cCpResource build/Debug-iphonesimulator/volume.app/texture.png texture.png
+cCpResource build/Debug-iphonesimulator/volume.app/rockwall_32.png rockwall_32.png
+cCpResource build/Debug-iphonesimulator/volume.app/rockwall_normal_32.png rockwall_normal_32.png
+cCpResource build/Debug-iphonesimulator/volume.app/rockwall_normal.png rockwall_normal.png
+cCpResource build/Debug-iphonesimulator/volume.app/rockwall.png rockwall.png
+cCpResource build/Debug-iphonesimulator/volume.app/rockwall_relief.png rockwall_relief.png
+cCpResource build/Debug-iphonesimulator/volume.app/rockwall_relief2.png rockwall_relief2.png
+cCpResource build/Debug-iphonesimulator/volume.app/rockwall_relief3.png rockwall_relief3.png
+cCpResource build/Debug-iphonesimulator/volume.app/rockwall_bump.png rockwall_bump.png
+cCpResource build/Debug-iphonesimulator/volume.app/wood_ipod_relief.png wood_ipod_relief.png
+cCpResource build/Debug-iphonesimulator/volume.app/wood_ipod.png wood_ipod.png
+cCpResource build/Debug-iphonesimulator/volume.app/ipod_128_2048_16.png ipod_128_2048_16.png
+cProcessPCH /var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/volume_Prefix-cwgixhzcggcsnbeffxgexmvbanri/volume_Prefix.pch.gch volume_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/volume_Prefix-fbhrljlrranhahannclkadycpttj/volume_Prefix.pch.gch volume_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/main.o /Users/henrique/Documents/Tutorial6/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/Tutorial6AppDelegate.o /Users/henrique/Documents/Tutorial6/Classes/Tutorial6AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/EAGLView.o /Users/henrique/Documents/Tutorial6/Classes/EAGLView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/Tutorial6ViewController.o /Users/henrique/Documents/Tutorial6/Classes/Tutorial6ViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/esShader.o /Users/henrique/Documents/Tutorial6/esUtils/esShader.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/esShapes.o /Users/henrique/Documents/Tutorial6/esUtils/esShapes.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/esTransform.o /Users/henrique/Documents/Tutorial6/esUtils/esTransform.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/esUtil.o /Users/henrique/Documents/Tutorial6/esUtils/esUtil.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/texture_support.o /Users/henrique/Documents/Tutorial6/Classes/texture_support.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/PinholeCamera.o /Users/henrique/Documents/Tutorial6/Classes/PinholeCamera.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app/volume normal i386
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CMAttitude.h
+c000000004C6C2FF1000000000000084C
+t1282158577
+s2124
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CoreMotion.h
+c000000004C6C2FF200000000000001CB
+t1282158578
+s459
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004C5A4E4D000000000000094F
+t1280986701
+s2383
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004C5A4E4D0000000000009369
+t1280986701
+s37737
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004C5A4E4D0000000000003C4A
+t1280986701
+s15434
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/gl.h
+c000000004C5A4E4D00000000000092AA
+t1280986701
+s37546
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/glext.h
+c000000004C5A4E4D00000000000026AA
+t1280986701
+s9898
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004C5A4E570000000000019D60
+t1280986711
+s105824
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004C5A505200000000000000C4
+t1280987218
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004C5A50EF0000000000154E50
+t1280987375
+s1396304
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/Availability.h
+c000000004C57A0390000000000001A5C
+t1280811065
+s6748
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/assert.h
+c000000004C5790910000000000000DCB
+t1280807057
+s3531
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/memory.h
+c000000004C5790910000000000000765
+t1280807057
+s1893
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/stdio.h
+c000000004C57909200000000000040AC
+t1280807058
+s16556
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/stdlib.h
+c000000004C5790920000000000002DF5
+t1280807058
+s11765
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/string.h
+c000000004C5790920000000000001731
+t1280807058
+s5937
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
+c000000004A11983400000000000010DD
+t1242667060
+s4317
+
+N/Users/henrique/Documents/Tutorial6/Classes/../Tutorial6ViewController.xib
+c000000004CA1CBC600000000000043F5
+t1285671878
+s17397
+
+N/Users/henrique/Documents/Tutorial6/Classes/EAGLView.h
+c000000004CA1DA6700000000000003B7
+t1285675623
+s951
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<OpenGLES/ES2/gl.h>
+i<OpenGLES/ES2/glext.h>
+
+N/Users/henrique/Documents/Tutorial6/Classes/EAGLView.m
+c000000004CF3E44D000000000000148E
+t1291052109
+s5262
+i<QuartzCore/QuartzCore.h>
+i"EAGLView.h"
+
+N/Users/henrique/Documents/Tutorial6/Classes/LookUpTable.h
+c000000004CF703AC00000000000024B2
+t1291256748
+s9394
+i<OpenGLES/ES2/gl.h>
+i<OpenGLES/ES2/glext.h>
+
+N/Users/henrique/Documents/Tutorial6/Classes/PinholeCamera.h
+c000000004CF144B20000000000000790
+t1290880178
+s1936
+i<Foundation/Foundation.h>
+i"esUtil.h"
+
+N/Users/henrique/Documents/Tutorial6/Classes/PinholeCamera.m
+c000000004CF148000000000000001C44
+t1290881024
+s7236
+i"PinholeCamera.h"
+
+N/Users/henrique/Documents/Tutorial6/Classes/Tutorial6AppDelegate.h
+c000000004CEFE3BB00000000000001B5
+t1290789819
+s437
+i<UIKit/UIKit.h>
+
+N/Users/henrique/Documents/Tutorial6/Classes/Tutorial6AppDelegate.m
+c000000004CA1DA6700000000000003BF
+t1285675623
+s959
+i"Tutorial6AppDelegate.h"
+i"Tutorial6ViewController.h"
+
+N/Users/henrique/Documents/Tutorial6/Classes/Tutorial6ViewController.h
+c000000004CF80C5300000000000006B6
+t1291324499
+s1718
+i<UIKit/UIKit.h>
+i<CoreMotion/CoreMotion.h>
+i<CoreMotion/CMAttitude.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<OpenGLES/ES2/gl.h>
+i<OpenGLES/ES2/glext.h>
+i"PinholeCamera.h"
+i"esUtil.h"
+
+N/Users/henrique/Documents/Tutorial6/Classes/Tutorial6ViewController.m
+c000000004CF80BF40000000000004E2C
+t1291324404
+s20012
+i<QuartzCore/QuartzCore.h>
+i"Tutorial6ViewController.h"
+i"EAGLView.h"
+i"texture_support.h"
+i"LookUpTable.h"
+i"wsg.h"
+
+N/Users/henrique/Documents/Tutorial6/Classes/texture_support.h
+c000000004CB818FB0000000000000116
+t1287133435
+s278
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<OpenGLES/ES2/gl.h>
+i<OpenGLES/ES2/glext.h>
+
+N/Users/henrique/Documents/Tutorial6/Classes/texture_support.m
+c000000004CF804920000000000000BD0
+t1291322514
+s3024
+i"texture_support.h"
+
+N/Users/henrique/Documents/Tutorial6/Classes/wsg.h
+c000000004CF80BF4000000000000189E
+t1291324404
+s6302
+i<stdio.h>
+i<stdlib.h>
+i<math.h>
+i<memory.h>
+i<assert.h>
+
+N/Users/henrique/Documents/Tutorial6/MainWindow.xib
+c000000004CA1CBC60000000000005533
+t1285671878
+s21811
+
+N/Users/henrique/Documents/Tutorial6/Shaders/Shader_texture.fsh
+c000000004CF8080200000000000016DD
+t1291323394
+s5853
+
+N/Users/henrique/Documents/Tutorial6/Shaders/Shader_texture.vsh
+c000000004CF6F6110000000000000761
+t1291253265
+s1889
+
+N/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app
+t2
+s0
+
+N/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app.dSYM
+t2
+s0
+
+N/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app/Info.plist
+t1291324799
+s617
+
+N/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app/MainWindow.nib
+t1291324800
+s1811
+
+N/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app/PkgInfo
+t1291324799
+s8
+
+N/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app/Shader_texture.fsh
+t1291324799
+s5853
+
+N/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app/Shader_texture.vsh
+t1291324799
+s1889
+
+N/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app/Tutorial6ViewController.nib
+t1291324800
+s1342
+
+N/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app/ipod_128_2048_16.png
+t1291324800
+s282897
+
+N/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app/rockwall.png
+t1291324800
+s156192
+
+N/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app/rockwall_32.png
+t1291324800
+s156192
+
+N/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app/rockwall_bump.png
+t1291324800
+s64336
+
+N/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app/rockwall_normal.png
+t1291324800
+s114715
+
+N/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app/rockwall_normal_32.png
+t1291324800
+s114715
+
+N/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app/rockwall_relief.png
+t1291324800
+s149295
+
+N/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app/rockwall_relief2.png
+t1291324800
+s149258
+
+N/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app/rockwall_relief3.png
+t1291324800
+s149258
+
+N/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app/texture.png
+t1291324800
+s35878
+
+N/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app/volume
+t2
+s0
+
+N/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app/wood_ipod.png
+t1291324800
+s216842
+
+N/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app/wood_ipod_relief.png
+t1291324800
+s36656
+
+N/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/EAGLView.o
+t1291324801
+s45252
+
+N/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/PinholeCamera.o
+t1291324802
+s26420
+
+N/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/Tutorial6AppDelegate.o
+t1291324801
+s49628
+
+N/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/Tutorial6ViewController.o
+t1291324801
+s96472
+
+N/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/esShader.o
+t1291324801
+s4672
+
+N/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/esShapes.o
+t1291324801
+s8232
+
+N/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/esTransform.o
+t1291324801
+s9288
+
+N/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/esUtil.o
+t1291324801
+s3600
+
+N/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/main.o
+t1291324801
+s6296
+
+N/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/texture_support.o
+t1291324801
+s12464
+
+N/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/volume.LinkFileList
+c000000004CF80D7F00000000000004DE
+t1291324799
+s1246
+
+N/Users/henrique/Documents/Tutorial6/esUtils/esShader.c
+c000000004856BEC00000000000000F09
+t1213644480
+s3849
+i"esUtil.h"
+i<stdlib.h>
+
+N/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c
+c000000004CEEE5AD000000000000230D
+t1290724781
+s8973
+i"esUtil.h"
+i<string.h>
+i<math.h>
+
+N/Users/henrique/Documents/Tutorial6/esUtils/esTransform.c
+c000000004CF11BBE00000000000017B0
+t1290869694
+s6064
+i"esUtil.h"
+i<math.h>
+
+N/Users/henrique/Documents/Tutorial6/esUtils/esUtil.c
+c000000004A399F750000000000000521
+t1245290357
+s1313
+i<stdio.h>
+i<stdlib.h>
+i<stdarg.h>
+i"esUtil.h"
+
+N/Users/henrique/Documents/Tutorial6/esUtils/esUtil.h
+c000000004CEDB3F80000000000001D52
+t1290646520
+s7506
+i<OpenGLES/ES2/gl.h>
+
+N/Users/henrique/Documents/Tutorial6/ipod_128_2048_16.png
+c000000004CF65DF10000000000045111
+t1291214321
+s282897
+
+N/Users/henrique/Documents/Tutorial6/main.m
+c000000004CA1DA670000000000000135
+t1285675623
+s309
+i<UIKit/UIKit.h>
+
+N/Users/henrique/Documents/Tutorial6/rockwall.png
+c000000004CED07580000000000026220
+t1290602328
+s156192
+
+N/Users/henrique/Documents/Tutorial6/rockwall_32.png
+c000000004CED07610000000000026220
+t1290602337
+s156192
+
+N/Users/henrique/Documents/Tutorial6/rockwall_bump.png
+c000000004CEECAB6000000000000FB50
+t1290717878
+s64336
+
+N/Users/henrique/Documents/Tutorial6/rockwall_normal.png
+c000000004CED0765000000000001C01B
+t1290602341
+s114715
+
+N/Users/henrique/Documents/Tutorial6/rockwall_normal_32.png
+c000000004CED0769000000000001C01B
+t1290602345
+s114715
+
+N/Users/henrique/Documents/Tutorial6/rockwall_relief.png
+c000000004CEEBB23000000000002472F
+t1290713891
+s149295
+
+N/Users/henrique/Documents/Tutorial6/rockwall_relief2.png
+c000000004CEEBB2A000000000002470A
+t1290713898
+s149258
+
+N/Users/henrique/Documents/Tutorial6/rockwall_relief3.png
+c000000004CEEBB2E000000000002470A
+t1290713902
+s149258
+
+N/Users/henrique/Documents/Tutorial6/texture.png
+c000000004CA1D13D0000000000008C26
+t1285673277
+s35878
+
+N/Users/henrique/Documents/Tutorial6/volume_Prefix.pch
+c000000004CA1CBC6000000000000013C
+t1285671878
+s316
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/henrique/Documents/Tutorial6/wood_ipod.png
+c000000004CEED9E90000000000034F0A
+t1290721769
+s216842
+
+N/Users/henrique/Documents/Tutorial6/wood_ipod_relief.png
+c000000004CEED9E80000000000008F30
+t1290721768
+s36656
+
+N/var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/volume_Prefix-cwgixhzcggcsnbeffxgexmvbanri/volume_Prefix.pch.gch
+t1291324801
+s15203344
+
+N/var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/volume_Prefix-fbhrljlrranhahannclkadycpttj/volume_Prefix.pch.gch
+t1291324800
+s2167216
+
+Nvolume-Info.plist
+c000000004CA1DA67000000000000039C
+t1285675623
+s924
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies313017599#313017599#0(0"0(0#1#0"8621766592#0"0#
+
+CCompileC build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/EAGLView.o /Users/henrique/Documents/Tutorial6/Classes/EAGLView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313017601.611119
+e313017601.719688
+r1
+xCompileC
+xbuild/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/EAGLView.o
+x/Users/henrique/Documents/Tutorial6/Classes/EAGLView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/henrique/Documents/Tutorial6/Classes/EAGLView.m313017601#313017601#0(0"0(0#0#54"/Users/henrique/Documents/Tutorial6/Classes/EAGLView.m8612722304#1885"    cd /Users/henrique/Documents/Tutorial6    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-generated-files.hmap -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-own-target-headers.hmap -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-all-target-headers.hmap -iquote /Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-project-headers.hmap -F/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator -I/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/include -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/DerivedSources/i386 -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/DerivedSources -include /var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/volume_Prefix-cwgixhzcggcsnbeffxgexmvbanri/volume_Prefix.pch -c /Users/henrique/Documents/Tutorial6/Classes/EAGLView.m -o /Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/EAGLView.o0#
+
+CCompileC build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/PinholeCamera.o /Users/henrique/Documents/Tutorial6/Classes/PinholeCamera.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313017601.948916
+e313017602.045657
+r1
+xCompileC
+xbuild/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/PinholeCamera.o
+x/Users/henrique/Documents/Tutorial6/Classes/PinholeCamera.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/henrique/Documents/Tutorial6/Classes/PinholeCamera.m313017601#313017602#0(0"0(0#0#59"/Users/henrique/Documents/Tutorial6/Classes/PinholeCamera.m8626390592#1895"    cd /Users/henrique/Documents/Tutorial6    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-generated-files.hmap -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-own-target-headers.hmap -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-all-target-headers.hmap -iquote /Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-project-headers.hmap -F/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator -I/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/include -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/DerivedSources/i386 -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/DerivedSources -include /var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/volume_Prefix-cwgixhzcggcsnbeffxgexmvbanri/volume_Prefix.pch -c /Users/henrique/Documents/Tutorial6/Classes/PinholeCamera.m -o /Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/PinholeCamera.o0#
+
+CCompileC build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/Tutorial6AppDelegate.o /Users/henrique/Documents/Tutorial6/Classes/Tutorial6AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313017601.553718
+e313017601.646194
+r1
+xCompileC
+xbuild/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/Tutorial6AppDelegate.o
+x/Users/henrique/Documents/Tutorial6/Classes/Tutorial6AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/henrique/Documents/Tutorial6/Classes/Tutorial6AppDelegate.m313017601#313017601#0(0"0(0#0#66"/Users/henrique/Documents/Tutorial6/Classes/Tutorial6AppDelegate.m8617441120#1909"    cd /Users/henrique/Documents/Tutorial6    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-generated-files.hmap -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-own-target-headers.hmap -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-all-target-headers.hmap -iquote /Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-project-headers.hmap -F/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator -I/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/include -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/DerivedSources/i386 -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/DerivedSources -include /var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/volume_Prefix-cwgixhzcggcsnbeffxgexmvbanri/volume_Prefix.pch -c /Users/henrique/Documents/Tutorial6/Classes/Tutorial6AppDelegate.m -o /Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/Tutorial6AppDelegate.o0#
+
+CCompileC build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/Tutorial6ViewController.o /Users/henrique/Documents/Tutorial6/Classes/Tutorial6ViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313017601.646298
+e313017601.909908
+r1
+xCompileC
+xbuild/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/Tutorial6ViewController.o
+x/Users/henrique/Documents/Tutorial6/Classes/Tutorial6ViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/henrique/Documents/Tutorial6/Classes/Tutorial6ViewController.m: In function '-[Tutorial6ViewController drawFrame]':
+o/Users/henrique/Documents/Tutorial6/Classes/Tutorial6ViewController.m:240: warning: unused variable 'quat_z'
+o/Users/henrique/Documents/Tutorial6/Classes/Tutorial6ViewController.m:239: warning: unused variable 'quat_y'
+o/Users/henrique/Documents/Tutorial6/Classes/Tutorial6ViewController.m:238: warning: unused variable 'quat_x'
+o/Users/henrique/Documents/Tutorial6/Classes/Tutorial6ViewController.m:237: warning: unused variable 'quat_w'
+lSLF07#2@77"Compile /Users/henrique/Documents/Tutorial6/Classes/Tutorial6ViewController.m313017601#313017601#0(559"/Users/henrique/Documents/Tutorial6/Classes/Tutorial6ViewController.m: In function '-[Tutorial6ViewController drawFrame]':/Users/henrique/Documents/Tutorial6/Classes/Tutorial6ViewController.m:240: warning: unused variable 'quat_z'/Users/henrique/Documents/Tutorial6/Classes/Tutorial6ViewController.m:239: warning: unused variable 'quat_y'/Users/henrique/Documents/Tutorial6/Classes/Tutorial6ViewController.m:238: warning: unused variable 'quat_x'/Users/henrique/Documents/Tutorial6/Classes/Tutorial6ViewController.m:237: warning: unused variable 'quat_w'4(22@24"Unused variable 'quat_z'313017601#123#109#0(6@69"/Users/henrique/Documents/Tutorial6/Classes/Tutorial6ViewController.m313017204#240#0#240#0#19"unused variable '*'0(22@24"Unused variable 'quat_y'313017601#232#109#0(6@69"/Users/henrique/Documents/Tutorial6/Classes/Tutorial6ViewController.m313017204#239#0#239#0#19"unused variable '*'0(22@24"Unused variable 'quat_x'313017601#341#109#0(6@69"/Users/henrique/Documents/Tutorial6/Classes/Tutorial6ViewController.m313017204#238#0#238#0#19"unused variable '*'0(22@24"Unused variable 'quat_w'313017601#450#109#0(6@69"/Users/henrique/Documents/Tutorial6/Classes/Tutorial6ViewController.m313017204#237#0#237#0#19"unused variable '*'0(0#0#69"/Users/henrique/Documents/Tutorial6/Classes/Tutorial6ViewController.m8620505440#1915"    cd /Users/henrique/Documents/Tutorial6    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-generated-files.hmap -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-own-target-headers.hmap -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-all-target-headers.hmap -iquote /Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-project-headers.hmap -F/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator -I/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/include -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/DerivedSources/i386 -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/DerivedSources -include /var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/volume_Prefix-cwgixhzcggcsnbeffxgexmvbanri/volume_Prefix.pch -c /Users/henrique/Documents/Tutorial6/Classes/Tutorial6ViewController.m -o /Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/Tutorial6ViewController.o0#
+
+CCompileC build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/esShader.o /Users/henrique/Documents/Tutorial6/esUtils/esShader.c normal i386 c com.apple.compilers.gcc.4_2
+s313017601.719790
+e313017601.762726
+r1
+xCompileC
+xbuild/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/esShader.o
+x/Users/henrique/Documents/Tutorial6/esUtils/esShader.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/henrique/Documents/Tutorial6/esUtils/esShader.c313017601#313017601#0(0"0(0#0#54"/Users/henrique/Documents/Tutorial6/esUtils/esShader.c8625732512#1831"    cd /Users/henrique/Documents/Tutorial6    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-generated-files.hmap -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-own-target-headers.hmap -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-all-target-headers.hmap -iquote /Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-project-headers.hmap -F/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator -I/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/include -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/DerivedSources/i386 -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/DerivedSources -include /var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/volume_Prefix-fbhrljlrranhahannclkadycpttj/volume_Prefix.pch -c /Users/henrique/Documents/Tutorial6/esUtils/esShader.c -o /Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/esShader.o0#
+
+CCompileC build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/esShapes.o /Users/henrique/Documents/Tutorial6/esUtils/esShapes.c normal i386 c com.apple.compilers.gcc.4_2
+s313017601.762828
+e313017601.819127
+r1
+xCompileC
+xbuild/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/esShapes.o
+x/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c: In function 'esGenSphere':
+o/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c:65: warning: implicit declaration of function 'malloc'
+o/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c:65: warning: incompatible implicit declaration of built-in function 'malloc'
+o/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c:68: warning: incompatible implicit declaration of built-in function 'malloc'
+o/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c:71: warning: incompatible implicit declaration of built-in function 'malloc'
+o/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c:74: warning: incompatible implicit declaration of built-in function 'malloc'
+o/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c: In function 'esGenCube':
+o/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c:285: warning: incompatible implicit declaration of built-in function 'malloc'
+o/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c:295: warning: incompatible implicit declaration of built-in function 'malloc'
+o/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c:301: warning: incompatible implicit declaration of built-in function 'malloc'
+o/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c:307: warning: incompatible implicit declaration of built-in function 'malloc'
+o/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c:331: warning: incompatible implicit declaration of built-in function 'malloc'
+lSLF07#2@62"Compile /Users/henrique/Documents/Tutorial6/esUtils/esShapes.c313017601#313017601#0(1467"/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c: In function 'esGenSphere':/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c:65: warning: implicit declaration of function 'malloc'/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c:65: warning: incompatible implicit declaration of built-in function 'malloc'/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c:68: warning: incompatible implicit declaration of built-in function 'malloc'/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c:71: warning: incompatible implicit declaration of built-in function 'malloc'/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c:74: warning: incompatible implicit declaration of built-in function 'malloc'/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c: In function 'esGenCube':/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c:285: warning: incompatible implicit declaration of built-in function 'malloc'/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c:295: warning: incompatible implicit declaration of built-in function 'malloc'/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c:301: warning: incompatible implicit declaration of built-in function 'malloc'/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c:307: warning: incompatible implicit declaration of built-in function 'malloc'/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c:331: warning: incompatible implicit declaration of built-in function 'malloc'10(22@41"Implicit declaration of function 'malloc'313017601#83#110#0(6@54"/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c312417581#65#0#65#0#36"implicit declaration of function '*'0(22@63"Incompatible implicit declaration of built-in function 'malloc'313017601#193#132#0(6@54"/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c312417581#65#0#65#0#0"0(22@63"Incompatible implicit declaration of built-in function 'malloc'313017601#325#132#0(6@54"/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c312417581#68#0#68#0#0"0(22@63"Incompatible implicit declaration of built-in function 'malloc'313017601#457#132#0(6@54"/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c312417581#71#0#71#0#0"0(22@63"Incompatible implicit declaration of built-in function 'malloc'313017601#589#132#0(6@54"/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c312417581#74#0#74#0#0"0(22@63"Incompatible implicit declaration of built-in function 'malloc'313017601#802#133#0(6@54"/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c312417581#285#0#285#0#0"0(22@63"Incompatible implicit declaration of built-in function 'malloc'313017601#935#133#0(6@54"/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c312417581#295#0#295#0#0"0(22@63"Incompatible implicit declaration of built-in function 'malloc'313017601#1068#133#0(6@54"/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c312417581#301#0#301#0#0"0(22@63"Incompatible implicit declaration of built-in function 'malloc'313017601#1201#133#0(6@54"/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c312417581#307#0#307#0#0"0(22@63"Incompatible implicit declaration of built-in function 'malloc'313017601#1334#133#0(6@54"/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c312417581#331#0#331#0#0"0(0#0#54"/Users/henrique/Documents/Tutorial6/esUtils/esShapes.c8622380576#1831"    cd /Users/henrique/Documents/Tutorial6    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-generated-files.hmap -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-own-target-headers.hmap -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-all-target-headers.hmap -iquote /Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-project-headers.hmap -F/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator -I/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/include -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/DerivedSources/i386 -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/DerivedSources -include /var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/volume_Prefix-fbhrljlrranhahannclkadycpttj/volume_Prefix.pch -c /Users/henrique/Documents/Tutorial6/esUtils/esShapes.c -o /Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/esShapes.o0#
+
+CCompileC build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/esTransform.o /Users/henrique/Documents/Tutorial6/esUtils/esTransform.c normal i386 c com.apple.compilers.gcc.4_2
+s313017601.819224
+e313017601.884399
+r1
+xCompileC
+xbuild/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/esTransform.o
+x/Users/henrique/Documents/Tutorial6/esUtils/esTransform.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/henrique/Documents/Tutorial6/esUtils/esTransform.c: In function 'esMatrixMultiply':
+o/Users/henrique/Documents/Tutorial6/esUtils/esTransform.c:199: warning: implicit declaration of function 'memcpy'
+o/Users/henrique/Documents/Tutorial6/esUtils/esTransform.c:199: warning: incompatible implicit declaration of built-in function 'memcpy'
+o/Users/henrique/Documents/Tutorial6/esUtils/esTransform.c: In function 'esMatrixLoadIdentity':
+o/Users/henrique/Documents/Tutorial6/esUtils/esTransform.c:206: warning: implicit declaration of function 'memset'
+o/Users/henrique/Documents/Tutorial6/esUtils/esTransform.c:206: warning: incompatible implicit declaration of built-in function 'memset'
+lSLF07#2@65"Compile /Users/henrique/Documents/Tutorial6/esUtils/esTransform.c313017601#313017601#0(686"/Users/henrique/Documents/Tutorial6/esUtils/esTransform.c: In function 'esMatrixMultiply':/Users/henrique/Documents/Tutorial6/esUtils/esTransform.c:199: warning: implicit declaration of function 'memcpy'/Users/henrique/Documents/Tutorial6/esUtils/esTransform.c:199: warning: incompatible implicit declaration of built-in function 'memcpy'/Users/henrique/Documents/Tutorial6/esUtils/esTransform.c: In function 'esMatrixLoadIdentity':/Users/henrique/Documents/Tutorial6/esUtils/esTransform.c:206: warning: implicit declaration of function 'memset'/Users/henrique/Documents/Tutorial6/esUtils/esTransform.c:206: warning: incompatible implicit declaration of built-in function 'memset'4(22@41"Implicit declaration of function 'memcpy'313017601#91#114#0(6@57"/Users/henrique/Documents/Tutorial6/esUtils/esTransform.c312562494#199#0#199#0#36"implicit declaration of function '*'0(22@63"Incompatible implicit declaration of built-in function 'memcpy'313017601#205#136#0(6@57"/Users/henrique/Documents/Tutorial6/esUtils/esTransform.c312562494#199#0#199#0#0"0(22@41"Implicit declaration of function 'memset'313017601#436#114#0(6@57"/Users/henrique/Documents/Tutorial6/esUtils/esTransform.c312562494#206#0#206#0#36"implicit declaration of function '*'0(22@63"Incompatible implicit declaration of built-in function 'memset'313017601#550#136#0(6@57"/Users/henrique/Documents/Tutorial6/esUtils/esTransform.c312562494#206#0#206#0#0"0(0#0#57"/Users/henrique/Documents/Tutorial6/esUtils/esTransform.c8620107264#1837"    cd /Users/henrique/Documents/Tutorial6    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-generated-files.hmap -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-own-target-headers.hmap -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-all-target-headers.hmap -iquote /Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-project-headers.hmap -F/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator -I/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/include -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/DerivedSources/i386 -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/DerivedSources -include /var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/volume_Prefix-fbhrljlrranhahannclkadycpttj/volume_Prefix.pch -c /Users/henrique/Documents/Tutorial6/esUtils/esTransform.c -o /Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/esTransform.o0#
+
+CCompileC build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/esUtil.o /Users/henrique/Documents/Tutorial6/esUtils/esUtil.c normal i386 c com.apple.compilers.gcc.4_2
+s313017601.884494
+e313017601.948811
+r1
+xCompileC
+xbuild/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/esUtil.o
+x/Users/henrique/Documents/Tutorial6/esUtils/esUtil.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/henrique/Documents/Tutorial6/esUtils/esUtil.c: In function 'esInitContext':
+o/Users/henrique/Documents/Tutorial6/esUtils/esUtil.c:43: warning: implicit declaration of function 'memset'
+o/Users/henrique/Documents/Tutorial6/esUtils/esUtil.c:43: warning: incompatible implicit declaration of built-in function 'memset'
+lSLF07#2@60"Compile /Users/henrique/Documents/Tutorial6/esUtils/esUtil.c313017601#313017601#0(321"/Users/henrique/Documents/Tutorial6/esUtils/esUtil.c: In function 'esInitContext':/Users/henrique/Documents/Tutorial6/esUtils/esUtil.c:43: warning: implicit declaration of function 'memset'/Users/henrique/Documents/Tutorial6/esUtils/esUtil.c:43: warning: incompatible implicit declaration of built-in function 'memset'2(22@41"Implicit declaration of function 'memset'313017601#83#108#0(6@52"/Users/henrique/Documents/Tutorial6/esUtils/esUtil.c266983157#43#0#43#0#36"implicit declaration of function '*'0(22@63"Incompatible implicit declaration of built-in function 'memset'313017601#191#130#0(6@52"/Users/henrique/Documents/Tutorial6/esUtils/esUtil.c266983157#43#0#43#0#0"0(0#0#52"/Users/henrique/Documents/Tutorial6/esUtils/esUtil.c8610982528#1827"    cd /Users/henrique/Documents/Tutorial6    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-generated-files.hmap -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-own-target-headers.hmap -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-all-target-headers.hmap -iquote /Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-project-headers.hmap -F/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator -I/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/include -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/DerivedSources/i386 -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/DerivedSources -include /var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/volume_Prefix-fbhrljlrranhahannclkadycpttj/volume_Prefix.pch -c /Users/henrique/Documents/Tutorial6/esUtils/esUtil.c -o /Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/esUtil.o0#
+
+CCompileC build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/main.o /Users/henrique/Documents/Tutorial6/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313017601.552320
+e313017601.611005
+r1
+xCompileC
+xbuild/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/main.o
+x/Users/henrique/Documents/Tutorial6/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/henrique/Documents/Tutorial6/main.m313017601#313017601#0(0"0(0#0#42"/Users/henrique/Documents/Tutorial6/main.m8614559712#1869"    cd /Users/henrique/Documents/Tutorial6    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-generated-files.hmap -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-own-target-headers.hmap -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-all-target-headers.hmap -iquote /Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-project-headers.hmap -F/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator -I/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/include -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/DerivedSources/i386 -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/DerivedSources -include /var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/volume_Prefix-cwgixhzcggcsnbeffxgexmvbanri/volume_Prefix.pch -c /Users/henrique/Documents/Tutorial6/main.m -o /Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/main.o0#
+
+CCompileC build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/texture_support.o /Users/henrique/Documents/Tutorial6/Classes/texture_support.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s313017601.910012
+e313017601.995950
+r1
+xCompileC
+xbuild/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/texture_support.o
+x/Users/henrique/Documents/Tutorial6/Classes/texture_support.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/henrique/Documents/Tutorial6/Classes/texture_support.m313017601#313017601#0(0"0(0#0#61"/Users/henrique/Documents/Tutorial6/Classes/texture_support.m8627839200#1899"    cd /Users/henrique/Documents/Tutorial6    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-generated-files.hmap -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-own-target-headers.hmap -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-all-target-headers.hmap -iquote /Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-project-headers.hmap -F/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator -I/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/include -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/DerivedSources/i386 -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/DerivedSources -include /var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/volume_Prefix-cwgixhzcggcsnbeffxgexmvbanri/volume_Prefix.pch -c /Users/henrique/Documents/Tutorial6/Classes/texture_support.m -o /Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/texture_support.o0#
+
+CCompileXIB /Users/henrique/Documents/Tutorial6/Classes/../Tutorial6ViewController.xib
+s313017599.884640
+e313017600.386996
+r1
+xCompileXIB
+x/Users/henrique/Documents/Tutorial6/Classes/../Tutorial6ViewController.xib
+lSLF07#2@49"CompileXIB Classes/../Tutorial6ViewController.xib313017599#313017600#0(0"0(0#0#74"/Users/henrique/Documents/Tutorial6/Classes/../Tutorial6ViewController.xib8622169888#597"    cd /Users/henrique/Documents/Tutorial6    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app/Tutorial6ViewController.nib /Users/henrique/Documents/Tutorial6/Classes/../Tutorial6ViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/henrique/Documents/Tutorial6/MainWindow.xib
+s313017599.862971
+e313017600.277759
+r1
+xCompileXIB
+x/Users/henrique/Documents/Tutorial6/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib313017599#313017600#0(0"0(0#0#50"/Users/henrique/Documents/Tutorial6/MainWindow.xib8622520544#560"    cd /Users/henrique/Documents/Tutorial6    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app/MainWindow.nib /Users/henrique/Documents/Tutorial6/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCpResource build/Debug-iphonesimulator/volume.app/Shader_texture.fsh Shaders/Shader_texture.fsh
+s313017599.861733
+e313017599.866855
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/volume.app/Shader_texture.fsh
+xShaders/Shader_texture.fsh
+lSLF07#2@31"Copy Shaders/Shader_texture.fsh313017599#313017599#0(0"0(0#0#62"/Users/henrique/Documents/Tutorial6/Shaders/Shader_texture.fsh8622998240#460"    cd /Users/henrique/Documents/Tutorial6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/henrique/Documents/Tutorial6/Shaders/Shader_texture.fsh /Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app0#
+
+CCpResource build/Debug-iphonesimulator/volume.app/Shader_texture.vsh Shaders/Shader_texture.vsh
+s313017599.862408
+e313017599.884498
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/volume.app/Shader_texture.vsh
+xShaders/Shader_texture.vsh
+lSLF07#2@31"Copy Shaders/Shader_texture.vsh313017599#313017599#0(0"0(0#0#62"/Users/henrique/Documents/Tutorial6/Shaders/Shader_texture.vsh8622812672#460"    cd /Users/henrique/Documents/Tutorial6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/henrique/Documents/Tutorial6/Shaders/Shader_texture.vsh /Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app0#
+
+CCpResource build/Debug-iphonesimulator/volume.app/ipod_128_2048_16.png ipod_128_2048_16.png
+s313017600.376363
+e313017600.412621
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/volume.app/ipod_128_2048_16.png
+xipod_128_2048_16.png
+lSLF07#2@25"Copy ipod_128_2048_16.png313017600#313017600#0(0"0(0#0#56"/Users/henrique/Documents/Tutorial6/ipod_128_2048_16.png8622372352#454"    cd /Users/henrique/Documents/Tutorial6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/henrique/Documents/Tutorial6/ipod_128_2048_16.png /Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app0#
+
+CCpResource build/Debug-iphonesimulator/volume.app/rockwall.png rockwall.png
+s313017600.285610
+e313017600.398687
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/volume.app/rockwall.png
+xrockwall.png
+lSLF07#2@17"Copy rockwall.png313017600#313017600#0(0"0(0#0#48"/Users/henrique/Documents/Tutorial6/rockwall.png8624101408#446"    cd /Users/henrique/Documents/Tutorial6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/henrique/Documents/Tutorial6/rockwall.png /Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app0#
+
+CCpResource build/Debug-iphonesimulator/volume.app/rockwall_32.png rockwall_32.png
+s313017600.278914
+e313017600.399142
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/volume.app/rockwall_32.png
+xrockwall_32.png
+lSLF07#2@20"Copy rockwall_32.png313017600#313017600#0(0"0(0#0#51"/Users/henrique/Documents/Tutorial6/rockwall_32.png8625737600#449"    cd /Users/henrique/Documents/Tutorial6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/henrique/Documents/Tutorial6/rockwall_32.png /Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app0#
+
+CCpResource build/Debug-iphonesimulator/volume.app/rockwall_bump.png rockwall_bump.png
+s313017600.295331
+e313017600.373375
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/volume.app/rockwall_bump.png
+xrockwall_bump.png
+lSLF07#2@22"Copy rockwall_bump.png313017600#313017600#0(0"0(0#0#53"/Users/henrique/Documents/Tutorial6/rockwall_bump.png8623253120#451"    cd /Users/henrique/Documents/Tutorial6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/henrique/Documents/Tutorial6/rockwall_bump.png /Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app0#
+
+CCpResource build/Debug-iphonesimulator/volume.app/rockwall_normal.png rockwall_normal.png
+s313017600.284827
+e313017600.382718
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/volume.app/rockwall_normal.png
+xrockwall_normal.png
+lSLF07#2@24"Copy rockwall_normal.png313017600#313017600#0(0"0(0#0#55"/Users/henrique/Documents/Tutorial6/rockwall_normal.png8624334912#453"    cd /Users/henrique/Documents/Tutorial6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/henrique/Documents/Tutorial6/rockwall_normal.png /Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app0#
+
+CCpResource build/Debug-iphonesimulator/volume.app/rockwall_normal_32.png rockwall_normal_32.png
+s313017600.279744
+e313017600.383965
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/volume.app/rockwall_normal_32.png
+xrockwall_normal_32.png
+lSLF07#2@27"Copy rockwall_normal_32.png313017600#313017600#0(0"0(0#0#58"/Users/henrique/Documents/Tutorial6/rockwall_normal_32.png8624425856#456"    cd /Users/henrique/Documents/Tutorial6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/henrique/Documents/Tutorial6/rockwall_normal_32.png /Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app0#
+
+CCpResource build/Debug-iphonesimulator/volume.app/rockwall_relief.png rockwall_relief.png
+s313017600.287317
+e313017600.398422
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/volume.app/rockwall_relief.png
+xrockwall_relief.png
+lSLF07#2@24"Copy rockwall_relief.png313017600#313017600#0(0"0(0#0#55"/Users/henrique/Documents/Tutorial6/rockwall_relief.png8624048064#453"    cd /Users/henrique/Documents/Tutorial6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/henrique/Documents/Tutorial6/rockwall_relief.png /Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app0#
+
+CCpResource build/Debug-iphonesimulator/volume.app/rockwall_relief2.png rockwall_relief2.png
+s313017600.290604
+e313017600.384488
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/volume.app/rockwall_relief2.png
+xrockwall_relief2.png
+lSLF07#2@25"Copy rockwall_relief2.png313017600#313017600#0(0"0(0#0#56"/Users/henrique/Documents/Tutorial6/rockwall_relief2.png8623977440#454"    cd /Users/henrique/Documents/Tutorial6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/henrique/Documents/Tutorial6/rockwall_relief2.png /Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app0#
+
+CCpResource build/Debug-iphonesimulator/volume.app/rockwall_relief3.png rockwall_relief3.png
+s313017600.293583
+e313017600.401301
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/volume.app/rockwall_relief3.png
+xrockwall_relief3.png
+lSLF07#2@25"Copy rockwall_relief3.png313017600#313017600#0(0"0(0#0#56"/Users/henrique/Documents/Tutorial6/rockwall_relief3.png8623811392#454"    cd /Users/henrique/Documents/Tutorial6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/henrique/Documents/Tutorial6/rockwall_relief3.png /Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app0#
+
+CCpResource build/Debug-iphonesimulator/volume.app/texture.png texture.png
+s313017600.277854
+e313017600.333153
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/volume.app/texture.png
+xtexture.png
+lSLF07#2@16"Copy texture.png313017600#313017600#0(0"0(0#0#47"/Users/henrique/Documents/Tutorial6/texture.png8625980544#445"    cd /Users/henrique/Documents/Tutorial6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/henrique/Documents/Tutorial6/texture.png /Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app0#
+
+CCpResource build/Debug-iphonesimulator/volume.app/wood_ipod.png wood_ipod.png
+s313017600.373520
+e313017600.406845
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/volume.app/wood_ipod.png
+xwood_ipod.png
+lSLF07#2@18"Copy wood_ipod.png313017600#313017600#0(0"0(0#0#49"/Users/henrique/Documents/Tutorial6/wood_ipod.png8622592480#447"    cd /Users/henrique/Documents/Tutorial6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/henrique/Documents/Tutorial6/wood_ipod.png /Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app0#
+
+CCpResource build/Debug-iphonesimulator/volume.app/wood_ipod_relief.png wood_ipod_relief.png
+s313017600.333283
+e313017600.376266
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/volume.app/wood_ipod_relief.png
+xwood_ipod_relief.png
+lSLF07#2@25"Copy wood_ipod_relief.png313017600#313017600#0(0"0(0#0#56"/Users/henrique/Documents/Tutorial6/wood_ipod_relief.png8623024512#454"    cd /Users/henrique/Documents/Tutorial6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/henrique/Documents/Tutorial6/wood_ipod_relief.png /Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app0#
+
+CGenerateDSYMFile /Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app.dSYM /Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app/volume
+s313015314.237618
+e313015314.266846
+r1
+xGenerateDSYMFile
+x/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app.dSYM
+x/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app/volume
+lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/volume.app.dSYM build/Debug-iphonesimulator/volume.app/volume313015314#313015314#0(0"0(0#0#81"/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app/volume8612502208#371"    cd /Users/henrique/Documents/Tutorial6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app/volume -o /Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app.dSYM0#
+
+CLd /Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app/volume normal i386
+s313017602.045758
+e313017602.072540
+r0
+xLd
+x/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app/volume
+xnormal
+xi386
+oUndefined symbols:
+o  "_OBJC_CLASS_$_CMMotionManager", referenced from:
+o      objc-class-ref-to-CMMotionManager in Tutorial6ViewController.o
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@86"Link /Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app/volume313017602#313017602#0(200"Undefined symbols:  "_OBJC_CLASS_$_CMMotionManager", referenced from:      objc-class-ref-to-CMMotionManager in Tutorial6ViewController.old: symbol(s) not foundcollect2: ld returned 1 exit status4(4@49""_OBJC_CLASS_$_CMMotionManager", referenced from:313017602#19#52#0(6@0"313017602#0#0#0#0#0"0(13@62"Objc-class-ref-to-CMMotionManager in Tutorial6ViewController.o313017602#71#69#0(6@0"313017602#0#0#0#0#0"0(13@19"Symbol(s) not found313017602#140#24#0(6@0"313017602#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status313017602#164#36#0(6@0"313017602#0#0#0#0#0"0(0#0#0"8620939616#922"    cd /Users/henrique/Documents/Tutorial6    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator -F/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator -filelist /Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/Objects-normal/i386/volume.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework OpenGLES -framework QuartzCore -framework CoreGraphics -o /Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app/volume1#
+
+CProcessInfoPlistFile /Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app/Info.plist volume-Info.plist
+s313017599.857481
+e313017599.861642
+r1
+xProcessInfoPlistFile
+x/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app/Info.plist
+xvolume-Info.plist
+lSLF07#2@25"Process volume-Info.plist313017599#313017599#0(0"0(0#0#53"/Users/henrique/Documents/Tutorial6/volume-Info.plist8623991008#467"    cd /Users/henrique/Documents/Tutorial6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility volume-Info.plist -genpkginfo /Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app/Info.plist0#
+
+CProcessPCH /var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/volume_Prefix-cwgixhzcggcsnbeffxgexmvbanri/volume_Prefix.pch.gch volume_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s313017600.412736
+e313017601.552134
+r1
+xProcessPCH
+x/var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/volume_Prefix-cwgixhzcggcsnbeffxgexmvbanri/volume_Prefix.pch.gch
+xvolume_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile volume_Prefix.pch313017600#313017601#0(0"0(0#0#53"/Users/henrique/Documents/Tutorial6/volume_Prefix.pch8621031648#1765"    cd /Users/henrique/Documents/Tutorial6    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-generated-files.hmap -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-own-target-headers.hmap -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-all-target-headers.hmap -iquote /Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-project-headers.hmap -F/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator -I/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/include -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/DerivedSources/i386 -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/DerivedSources -c /Users/henrique/Documents/Tutorial6/volume_Prefix.pch -o /var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/volume_Prefix-cwgixhzcggcsnbeffxgexmvbanri/volume_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/volume_Prefix-fbhrljlrranhahannclkadycpttj/volume_Prefix.pch.gch volume_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+s313017600.413592
+e313017600.518181
+r1
+xProcessPCH
+x/var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/volume_Prefix-fbhrljlrranhahannclkadycpttj/volume_Prefix.pch.gch
+xvolume_Prefix.pch
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile volume_Prefix.pch313017600#313017600#0(0"0(0#0#53"/Users/henrique/Documents/Tutorial6/volume_Prefix.pch8620838496#1711"    cd /Users/henrique/Documents/Tutorial6    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-generated-files.hmap -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-own-target-headers.hmap -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-all-target-headers.hmap -iquote /Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/volume-project-headers.hmap -F/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator -I/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/include -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/DerivedSources/i386 -I/Users/henrique/Documents/Tutorial6/build/volume.build/Debug-iphonesimulator/volume.build/DerivedSources -c /Users/henrique/Documents/Tutorial6/volume_Prefix.pch -o /var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/volume_Prefix-fbhrljlrranhahannclkadycpttj/volume_Prefix.pch.gch0#
+
+CTouch /Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app
+s313015314.266936
+e313015314.269515
+r1
+xTouch
+x/Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app
+lSLF07#2@80"Touch /Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app313015314#313015314#0(0"0(0#0#0"8612327264#271"    cd /Users/henrique/Documents/Tutorial6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/henrique/Documents/Tutorial6/build/Debug-iphonesimulator/volume.app0#
+

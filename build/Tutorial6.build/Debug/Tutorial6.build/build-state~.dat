@@ -1,0 +1,92 @@
+TTutorial6
+v7
+r1
+cCheck dependencies
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/../Tutorial6ViewController.xib
+c000000004CA1CBC600000000000043F5
+t1285671878
+s17397
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/MainWindow.xib
+c000000004CA1CBC60000000000005533
+t1285671878
+s21811
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/Shaders/Shader_texture.fsh
+c000000004CA1DA6700000000000000D1
+t1285675623
+s209
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/Shaders/Shader_texture.vsh
+c000000004CA1DA670000000000000103
+t1285675623
+s259
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Debug/Tutorial6.app
+t2
+s0
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Debug/Tutorial6.app/Contents/Info.plist
+t2
+s0
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Debug/Tutorial6.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Debug/Tutorial6.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Debug/Tutorial6.app/Contents/Resources/Shader_texture.fsh
+t2
+s0
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Debug/Tutorial6.app/Contents/Resources/Shader_texture.vsh
+t2
+s0
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Debug/Tutorial6.app/Contents/Resources/Tutorial6ViewController.nib
+t2
+s0
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Debug/Tutorial6.app/Contents/Resources/texture.png
+t2
+s0
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/texture.png
+c000000004CA1D13D0000000000008C26
+t1285673277
+s35878
+
+NTutorial6-Info.plist
+c000000004CA1DA67000000000000039C
+t1285675623
+s924
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies312240831#312240831#0(66"[BEROR]error: There is no SDK with the name or path 'iphoneos4.2'1(4@58"error: There is no SDK with the name or path 'iphoneos4.2'312240831#18446744073709551615#0#0(1@0"0(0#1#0"8629908064#0"0#
+
+CCompileXIB "/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/../Tutorial6ViewController.xib"
+r0
+
+CCompileXIB "/Users/henrique/Downloads/Applications/Tutorial6 2/MainWindow.xib"
+r0
+
+CCpResource build/Debug/Tutorial6.app/Contents/Resources/Shader_texture.fsh Shaders/Shader_texture.fsh
+r0
+
+CCpResource build/Debug/Tutorial6.app/Contents/Resources/Shader_texture.vsh Shaders/Shader_texture.vsh
+r0
+
+CCpResource build/Debug/Tutorial6.app/Contents/Resources/texture.png texture.png
+r0
+
+CProcessInfoPlistFile "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Debug/Tutorial6.app/Contents/Info.plist" Tutorial6-Info.plist
+r0
+
+CTouch "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Debug/Tutorial6.app"
+r0
+

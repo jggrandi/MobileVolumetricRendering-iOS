@@ -1,0 +1,801 @@
+TTutorial6
+v7
+r0
+t312416633.184630
+cCheck dependencies
+cProcessInfoPlistFile "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app/Info.plist" Tutorial6-Info.plist
+cCpResource build/Release-iphonesimulator/Tutorial6.app/Shader_texture.fsh Shaders/Shader_texture.fsh
+cCpResource build/Release-iphonesimulator/Tutorial6.app/Shader_texture.vsh Shaders/Shader_texture.vsh
+cCompileXIB "/Users/henrique/Downloads/Applications/Tutorial6 2/MainWindow.xib"
+cCompileXIB "/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/../Tutorial6ViewController.xib"
+cCpResource build/Release-iphonesimulator/Tutorial6.app/texture.png texture.png
+cCpResource build/Release-iphonesimulator/Tutorial6.app/rockwall_32.png rockwall_32.png
+cCpResource build/Release-iphonesimulator/Tutorial6.app/rockwall_normal_32.png rockwall_normal_32.png
+cCpResource build/Release-iphonesimulator/Tutorial6.app/rockwall_normal.png rockwall_normal.png
+cCpResource build/Release-iphonesimulator/Tutorial6.app/rockwall.png rockwall.png
+cCpResource build/Release-iphonesimulator/Tutorial6.app/rockwall_relief.png rockwall_relief.png
+cCpResource build/Release-iphonesimulator/Tutorial6.app/rockwall_relief2.png rockwall_relief2.png
+cCpResource build/Release-iphonesimulator/Tutorial6.app/rockwall_relief3.png rockwall_relief3.png
+cCpResource build/Release-iphonesimulator/Tutorial6.app/rockwall_bump.png rockwall_bump.png
+cCpResource build/Release-iphonesimulator/Tutorial6.app/wood_ipod_relief.png wood_ipod_relief.png
+cCpResource build/Release-iphonesimulator/Tutorial6.app/wood_ipod.png wood_ipod.png
+cProcessPCH /var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tutorial6_Prefix-blqxmvyytojzjcgpdnjbzaemxzyg/Tutorial6_Prefix.pch.gch Tutorial6_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tutorial6_Prefix-hfoabnkqjbpvxoaoxkwomsynbmjq/Tutorial6_Prefix.pch.gch Tutorial6_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/main.o "/Users/henrique/Downloads/Applications/Tutorial6 2/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/Tutorial6AppDelegate.o "/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/Tutorial6AppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/EAGLView.o "/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/EAGLView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/Tutorial6ViewController.o "/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/Tutorial6ViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/esShader.o "/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShader.c" normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/esShapes.o "/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c" normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/esTransform.o "/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esTransform.c" normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/esUtil.o "/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esUtil.c" normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/texture_support.o "/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/texture_support.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app/Tutorial6" normal i386
+cGenerateDSYMFile "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app.dSYM" "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app/Tutorial6"
+cTouch "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004C5A4E4D000000000000094F
+t1280986701
+s2383
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004C5A4E4D0000000000009369
+t1280986701
+s37737
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004C5A4E4D0000000000003C4A
+t1280986701
+s15434
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/gl.h
+c000000004C5A4E4D00000000000092AA
+t1280986701
+s37546
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/glext.h
+c000000004C5A4E4D00000000000026AA
+t1280986701
+s9898
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004C5A4E570000000000019D60
+t1280986711
+s105824
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004C5A505200000000000000C4
+t1280987218
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004C5A50EF0000000000154E50
+t1280987375
+s1396304
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/Availability.h
+c000000004C57A0390000000000001A5C
+t1280811065
+s6748
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/stdio.h
+c000000004C57909200000000000040AC
+t1280807058
+s16556
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/stdlib.h
+c000000004C5790920000000000002DF5
+t1280807058
+s11765
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/string.h
+c000000004C5790920000000000001731
+t1280807058
+s5937
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
+c000000004A11983400000000000010DD
+t1242667060
+s4317
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/../Tutorial6ViewController.xib
+c000000004CA1CBC600000000000043F5
+t1285671878
+s17397
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/EAGLView.h
+c000000004CA1DA6700000000000003B7
+t1285675623
+s951
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<OpenGLES/ES2/gl.h>
+i<OpenGLES/ES2/glext.h>
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/EAGLView.m
+c000000004CA1DA670000000000001039
+t1285675623
+s4153
+i<QuartzCore/QuartzCore.h>
+i"EAGLView.h"
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/Tutorial6AppDelegate.h
+c000000004CA1DA6700000000000001B5
+t1285675623
+s437
+i<UIKit/UIKit.h>
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/Tutorial6AppDelegate.m
+c000000004CA1DA6700000000000003BF
+t1285675623
+s959
+i"Tutorial6AppDelegate.h"
+i"Tutorial6ViewController.h"
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/Tutorial6ViewController.h
+c000000004CEDB41700000000000005E6
+t1290646551
+s1510
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<OpenGLES/ES2/gl.h>
+i<OpenGLES/ES2/glext.h>
+i"esUtil.h"
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/Tutorial6ViewController.m
+c000000004CEEDE740000000000003C88
+t1290722932
+s15496
+i<QuartzCore/QuartzCore.h>
+i"Tutorial6ViewController.h"
+i"EAGLView.h"
+i"texture_support.h"
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/texture_support.h
+c000000004CB818FB0000000000000116
+t1287133435
+s278
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<OpenGLES/ES2/gl.h>
+i<OpenGLES/ES2/glext.h>
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/texture_support.m
+c000000004CB818EB00000000000009D4
+t1287133419
+s2516
+i"texture_support.h"
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/MainWindow.xib
+c000000004CA1CBC60000000000005533
+t1285671878
+s21811
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/Shaders/Shader_texture.fsh
+c000000004CEEDE740000000000001DB0
+t1290722932
+s7600
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/Shaders/Shader_texture.vsh
+c000000004CEEE1DB0000000000000DD1
+t1290723803
+s3537
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/Tutorial6_Prefix.pch
+c000000004CA1CBC6000000000000013C
+t1285671878
+s316
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app
+t1290723833
+s680
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app.dSYM
+t1290723833
+s102
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app/Info.plist
+t1290723827
+s626
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app/MainWindow.nib
+t1290723828
+s1811
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app/PkgInfo
+t1290723827
+s8
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app/Shader_texture.fsh
+t1290723827
+s7600
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app/Shader_texture.vsh
+t1290723827
+s3537
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app/Tutorial6
+t1290723833
+s49604
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app/Tutorial6ViewController.nib
+t1290723828
+s1342
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app/rockwall.png
+t1290723828
+s156192
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app/rockwall_32.png
+t1290723828
+s156192
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app/rockwall_bump.png
+t1290723828
+s64336
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app/rockwall_normal.png
+t1290723828
+s114715
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app/rockwall_normal_32.png
+t1290723828
+s114715
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app/rockwall_relief.png
+t1290723828
+s149295
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app/rockwall_relief2.png
+t1290723828
+s149258
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app/rockwall_relief3.png
+t1290723828
+s149258
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app/texture.png
+t1290723828
+s35878
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app/wood_ipod.png
+t1290723828
+s216842
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app/wood_ipod_relief.png
+t1290723828
+s36656
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/EAGLView.o
+t1290723832
+s44148
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/Tutorial6.LinkFileList
+c000000004CEEE1F3000000000000052F
+t1290723827
+s1327
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/Tutorial6AppDelegate.o
+t1290723832
+s47588
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/Tutorial6ViewController.o
+t1290723832
+s67624
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/esShader.o
+t1290723832
+s4904
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/esShapes.o
+t1290723832
+s7640
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/esTransform.o
+t1290723832
+s8696
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/esUtil.o
+t1290723832
+s3600
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/main.o
+t1290723832
+s6312
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/texture_support.o
+t1290723833
+s11672
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShader.c
+c000000004856BEC00000000000000F09
+t1213644480
+s3849
+i"esUtil.h"
+i<stdlib.h>
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c
+c000000004CEEE1DB0000000000002311
+t1290723803
+s8977
+i"esUtil.h"
+i<string.h>
+i<math.h>
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esTransform.c
+c000000004856BEC000000000000017B0
+t1213644480
+s6064
+i"esUtil.h"
+i<math.h>
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esUtil.c
+c000000004A399F750000000000000521
+t1245290357
+s1313
+i<stdio.h>
+i<stdlib.h>
+i<stdarg.h>
+i"esUtil.h"
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esUtil.h
+c000000004CEDB3F80000000000001D52
+t1290646520
+s7506
+i<OpenGLES/ES2/gl.h>
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/main.m
+c000000004CA1DA670000000000000135
+t1285675623
+s309
+i<UIKit/UIKit.h>
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/rockwall.png
+c000000004CED07580000000000026220
+t1290602328
+s156192
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/rockwall_32.png
+c000000004CED07610000000000026220
+t1290602337
+s156192
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/rockwall_bump.png
+c000000004CEECAB6000000000000FB50
+t1290717878
+s64336
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/rockwall_normal.png
+c000000004CED0765000000000001C01B
+t1290602341
+s114715
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/rockwall_normal_32.png
+c000000004CED0769000000000001C01B
+t1290602345
+s114715
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/rockwall_relief.png
+c000000004CEEBB23000000000002472F
+t1290713891
+s149295
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/rockwall_relief2.png
+c000000004CEEBB2A000000000002470A
+t1290713898
+s149258
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/rockwall_relief3.png
+c000000004CEEBB2E000000000002470A
+t1290713902
+s149258
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/texture.png
+c000000004CA1D13D0000000000008C26
+t1285673277
+s35878
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/wood_ipod.png
+c000000004CEED9E90000000000034F0A
+t1290721769
+s216842
+
+N/Users/henrique/Downloads/Applications/Tutorial6 2/wood_ipod_relief.png
+c000000004CEED9E80000000000008F30
+t1290721768
+s36656
+
+N/var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tutorial6_Prefix-blqxmvyytojzjcgpdnjbzaemxzyg/Tutorial6_Prefix.pch.gch
+t1290723832
+s14871568
+
+N/var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tutorial6_Prefix-hfoabnkqjbpvxoaoxkwomsynbmjq/Tutorial6_Prefix.pch.gch
+t1290723829
+s2167216
+
+NTutorial6-Info.plist
+c000000004CA1DA67000000000000039C
+t1285675623
+s924
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies312416627#312416627#0(0"0(0#1#0"8621904512#0"0#
+
+CCompileC build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/EAGLView.o "/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/EAGLView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s312416632.396761
+e312416632.613669
+r1
+xCompileC
+xbuild/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/EAGLView.o
+x/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/EAGLView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/henrique/Downloads/Applications/Tutorial6 2/Classes/EAGLView.m312416632#312416632#0(0"0(0#0#69"/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/EAGLView.m8616559392#2183"    cd "/Users/henrique/Downloads/Applications/Tutorial6 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-generated-files.hmap" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-own-target-headers.hmap" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-all-target-headers.hmap" -iquote "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-project-headers.hmap" "-F/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/include" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/DerivedSources/i386" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tutorial6_Prefix-blqxmvyytojzjcgpdnjbzaemxzyg/Tutorial6_Prefix.pch -c "/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/EAGLView.m" -o "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/EAGLView.o"0#
+
+CCompileC build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/Tutorial6AppDelegate.o "/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/Tutorial6AppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s312416632.140659
+e312416632.445449
+r1
+xCompileC
+xbuild/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/Tutorial6AppDelegate.o
+x/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/Tutorial6AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/henrique/Downloads/Applications/Tutorial6 2/Classes/Tutorial6AppDelegate.m312416632#312416632#0(0"0(0#0#81"/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/Tutorial6AppDelegate.m8620309440#2207"    cd "/Users/henrique/Downloads/Applications/Tutorial6 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-generated-files.hmap" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-own-target-headers.hmap" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-all-target-headers.hmap" -iquote "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-project-headers.hmap" "-F/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/include" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/DerivedSources/i386" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tutorial6_Prefix-blqxmvyytojzjcgpdnjbzaemxzyg/Tutorial6_Prefix.pch -c "/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/Tutorial6AppDelegate.m" -o "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/Tutorial6AppDelegate.o"0#
+
+CCompileC build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/Tutorial6ViewController.o "/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/Tutorial6ViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s312416632.445561
+e312416632.839792
+r1
+xCompileC
+xbuild/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/Tutorial6ViewController.o
+x/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/Tutorial6ViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/Tutorial6ViewController.m: In function '-[Tutorial6ViewController touchesBegan:withEvent:]':
+o/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/Tutorial6ViewController.m:457: warning: unused variable 'touch'
+lSLF07#2@92"Compile /Users/henrique/Downloads/Applications/Tutorial6 2/Classes/Tutorial6ViewController.m312416632#312416632#0(275"/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/Tutorial6ViewController.m: In function '-[Tutorial6ViewController touchesBegan:withEvent:]':/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/Tutorial6ViewController.m:457: warning: unused variable 'touch'1(22@23"Unused variable 'touch'312416632#152#123#0(6@84"/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/Tutorial6ViewController.m312415732#457#0#457#0#19"unused variable '*'0(0#0#84"/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/Tutorial6ViewController.m8615976064#2213"    cd "/Users/henrique/Downloads/Applications/Tutorial6 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-generated-files.hmap" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-own-target-headers.hmap" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-all-target-headers.hmap" -iquote "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-project-headers.hmap" "-F/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/include" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/DerivedSources/i386" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tutorial6_Prefix-blqxmvyytojzjcgpdnjbzaemxzyg/Tutorial6_Prefix.pch -c "/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/Tutorial6ViewController.m" -o "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/Tutorial6ViewController.o"0#
+
+CCompileC build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/esShader.o "/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShader.c" normal i386 c com.apple.compilers.gcc.4_2
+s312416632.614115
+e312416632.721294
+r1
+xCompileC
+xbuild/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/esShader.o
+x/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShader.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShader.c312416632#312416632#0(0"0(0#0#69"/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShader.c8620988544#2129"    cd "/Users/henrique/Downloads/Applications/Tutorial6 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-generated-files.hmap" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-own-target-headers.hmap" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-all-target-headers.hmap" -iquote "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-project-headers.hmap" "-F/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/include" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/DerivedSources/i386" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tutorial6_Prefix-hfoabnkqjbpvxoaoxkwomsynbmjq/Tutorial6_Prefix.pch -c "/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShader.c" -o "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/esShader.o"0#
+
+CCompileC build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/esShapes.o "/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c" normal i386 c com.apple.compilers.gcc.4_2
+s312416632.721396
+e312416632.866260
+r1
+xCompileC
+xbuild/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/esShapes.o
+x/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c: In function 'esGenSphere':
+o/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c:65: warning: implicit declaration of function 'malloc'
+o/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c:65: warning: incompatible implicit declaration of built-in function 'malloc'
+o/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c:68: warning: incompatible implicit declaration of built-in function 'malloc'
+o/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c:71: warning: incompatible implicit declaration of built-in function 'malloc'
+o/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c:74: warning: incompatible implicit declaration of built-in function 'malloc'
+o/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c: In function 'esGenCube':
+o/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c:285: warning: incompatible implicit declaration of built-in function 'malloc'
+o/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c:295: warning: incompatible implicit declaration of built-in function 'malloc'
+o/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c:301: warning: incompatible implicit declaration of built-in function 'malloc'
+o/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c:307: warning: incompatible implicit declaration of built-in function 'malloc'
+o/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c:331: warning: incompatible implicit declaration of built-in function 'malloc'
+lSLF07#2@77"Compile /Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c312416632#312416632#0(1647"/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c: In function 'esGenSphere':/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c:65: warning: implicit declaration of function 'malloc'/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c:65: warning: incompatible implicit declaration of built-in function 'malloc'/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c:68: warning: incompatible implicit declaration of built-in function 'malloc'/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c:71: warning: incompatible implicit declaration of built-in function 'malloc'/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c:74: warning: incompatible implicit declaration of built-in function 'malloc'/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c: In function 'esGenCube':/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c:285: warning: incompatible implicit declaration of built-in function 'malloc'/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c:295: warning: incompatible implicit declaration of built-in function 'malloc'/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c:301: warning: incompatible implicit declaration of built-in function 'malloc'/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c:307: warning: incompatible implicit declaration of built-in function 'malloc'/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c:331: warning: incompatible implicit declaration of built-in function 'malloc'10(22@41"Implicit declaration of function 'malloc'312416632#98#125#0(6@69"/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c312416603#65#0#65#0#36"implicit declaration of function '*'0(22@63"Incompatible implicit declaration of built-in function 'malloc'312416632#223#147#0(6@69"/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c312416603#65#0#65#0#0"0(22@63"Incompatible implicit declaration of built-in function 'malloc'312416632#370#147#0(6@69"/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c312416603#68#0#68#0#0"0(22@63"Incompatible implicit declaration of built-in function 'malloc'312416632#517#147#0(6@69"/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c312416603#71#0#71#0#0"0(22@63"Incompatible implicit declaration of built-in function 'malloc'312416632#664#147#0(6@69"/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c312416603#74#0#74#0#0"0(22@63"Incompatible implicit declaration of built-in function 'malloc'312416632#907#148#0(6@69"/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c312416603#285#0#285#0#0"0(22@63"Incompatible implicit declaration of built-in function 'malloc'312416632#1055#148#0(6@69"/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c312416603#295#0#295#0#0"0(22@63"Incompatible implicit declaration of built-in function 'malloc'312416632#1203#148#0(6@69"/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c312416603#301#0#301#0#0"0(22@63"Incompatible implicit declaration of built-in function 'malloc'312416632#1351#148#0(6@69"/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c312416603#307#0#307#0#0"0(22@63"Incompatible implicit declaration of built-in function 'malloc'312416632#1499#148#0(6@69"/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c312416603#331#0#331#0#0"0(0#0#69"/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c8620657664#2129"    cd "/Users/henrique/Downloads/Applications/Tutorial6 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-generated-files.hmap" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-own-target-headers.hmap" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-all-target-headers.hmap" -iquote "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-project-headers.hmap" "-F/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/include" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/DerivedSources/i386" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tutorial6_Prefix-hfoabnkqjbpvxoaoxkwomsynbmjq/Tutorial6_Prefix.pch -c "/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esShapes.c" -o "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/esShapes.o"0#
+
+CCompileC build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/esTransform.o "/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esTransform.c" normal i386 c com.apple.compilers.gcc.4_2
+s312416632.840113
+e312416633.005049
+r1
+xCompileC
+xbuild/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/esTransform.o
+x/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esTransform.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esTransform.c: In function 'esMatrixMultiply':
+o/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esTransform.c:199: warning: implicit declaration of function 'memcpy'
+o/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esTransform.c:199: warning: incompatible implicit declaration of built-in function 'memcpy'
+o/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esTransform.c: In function 'esMatrixLoadIdentity':
+o/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esTransform.c:206: warning: implicit declaration of function 'memset'
+o/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esTransform.c:206: warning: incompatible implicit declaration of built-in function 'memset'
+lSLF07#2@80"Compile /Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esTransform.c312416632#312416633#0(776"/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esTransform.c: In function 'esMatrixMultiply':/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esTransform.c:199: warning: implicit declaration of function 'memcpy'/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esTransform.c:199: warning: incompatible implicit declaration of built-in function 'memcpy'/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esTransform.c: In function 'esMatrixLoadIdentity':/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esTransform.c:206: warning: implicit declaration of function 'memset'/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esTransform.c:206: warning: incompatible implicit declaration of built-in function 'memset'4(22@41"Implicit declaration of function 'memcpy'312416632#106#129#0(6@72"/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esTransform.c235337280#199#0#199#0#36"implicit declaration of function '*'0(22@63"Incompatible implicit declaration of built-in function 'memcpy'312416632#235#151#0(6@72"/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esTransform.c235337280#199#0#199#0#0"0(22@41"Implicit declaration of function 'memset'312416632#496#129#0(6@72"/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esTransform.c235337280#206#0#206#0#36"implicit declaration of function '*'0(22@63"Incompatible implicit declaration of built-in function 'memset'312416632#625#151#0(6@72"/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esTransform.c235337280#206#0#206#0#0"0(0#0#72"/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esTransform.c8619960352#2135"    cd "/Users/henrique/Downloads/Applications/Tutorial6 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-generated-files.hmap" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-own-target-headers.hmap" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-all-target-headers.hmap" -iquote "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-project-headers.hmap" "-F/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/include" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/DerivedSources/i386" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tutorial6_Prefix-hfoabnkqjbpvxoaoxkwomsynbmjq/Tutorial6_Prefix.pch -c "/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esTransform.c" -o "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/esTransform.o"0#
+
+CCompileC build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/esUtil.o "/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esUtil.c" normal i386 c com.apple.compilers.gcc.4_2
+s312416632.866360
+e312416632.921114
+r1
+xCompileC
+xbuild/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/esUtil.o
+x/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esUtil.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esUtil.c: In function 'esInitContext':
+o/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esUtil.c:43: warning: implicit declaration of function 'memset'
+o/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esUtil.c:43: warning: incompatible implicit declaration of built-in function 'memset'
+lSLF07#2@75"Compile /Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esUtil.c312416632#312416632#0(366"/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esUtil.c: In function 'esInitContext':/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esUtil.c:43: warning: implicit declaration of function 'memset'/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esUtil.c:43: warning: incompatible implicit declaration of built-in function 'memset'2(22@41"Implicit declaration of function 'memset'312416632#98#123#0(6@67"/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esUtil.c266983157#43#0#43#0#36"implicit declaration of function '*'0(22@63"Incompatible implicit declaration of built-in function 'memset'312416632#221#145#0(6@67"/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esUtil.c266983157#43#0#43#0#0"0(0#0#67"/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esUtil.c8619785952#2125"    cd "/Users/henrique/Downloads/Applications/Tutorial6 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-generated-files.hmap" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-own-target-headers.hmap" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-all-target-headers.hmap" -iquote "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-project-headers.hmap" "-F/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/include" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/DerivedSources/i386" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tutorial6_Prefix-hfoabnkqjbpvxoaoxkwomsynbmjq/Tutorial6_Prefix.pch -c "/Users/henrique/Downloads/Applications/Tutorial6 2/esUtils/esUtil.c" -o "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/esUtil.o"0#
+
+CCompileC build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/main.o "/Users/henrique/Downloads/Applications/Tutorial6 2/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s312416632.139376
+e312416632.396653
+r1
+xCompileC
+xbuild/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/main.o
+x/Users/henrique/Downloads/Applications/Tutorial6 2/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/henrique/Downloads/Applications/Tutorial6 2/main.m312416632#312416632#0(0"0(0#0#57"/Users/henrique/Downloads/Applications/Tutorial6 2/main.m8620829792#2167"    cd "/Users/henrique/Downloads/Applications/Tutorial6 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-generated-files.hmap" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-own-target-headers.hmap" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-all-target-headers.hmap" -iquote "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-project-headers.hmap" "-F/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/include" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/DerivedSources/i386" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tutorial6_Prefix-blqxmvyytojzjcgpdnjbzaemxzyg/Tutorial6_Prefix.pch -c "/Users/henrique/Downloads/Applications/Tutorial6 2/main.m" -o "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/main.o"0#
+
+CCompileC build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/texture_support.o "/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/texture_support.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s312416632.921232
+e312416633.069415
+r1
+xCompileC
+xbuild/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/texture_support.o
+x/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/texture_support.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/henrique/Downloads/Applications/Tutorial6 2/Classes/texture_support.m312416632#312416633#0(0"0(0#0#76"/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/texture_support.m8619584800#2197"    cd "/Users/henrique/Downloads/Applications/Tutorial6 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-generated-files.hmap" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-own-target-headers.hmap" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-all-target-headers.hmap" -iquote "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-project-headers.hmap" "-F/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/include" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/DerivedSources/i386" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tutorial6_Prefix-blqxmvyytojzjcgpdnjbzaemxzyg/Tutorial6_Prefix.pch -c "/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/texture_support.m" -o "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/texture_support.o"0#
+
+CCompileXIB "/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/../Tutorial6ViewController.xib"
+s312416627.414450
+e312416628.889355
+r1
+xCompileXIB
+x/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/../Tutorial6ViewController.xib
+lSLF07#2@49"CompileXIB Classes/../Tutorial6ViewController.xib312416627#312416628#0(0"0(0#0#89"/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/../Tutorial6ViewController.xib8620942208#653"    cd "/Users/henrique/Downloads/Applications/Tutorial6 2"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app/Tutorial6ViewController.nib" "/Users/henrique/Downloads/Applications/Tutorial6 2/Classes/../Tutorial6ViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB "/Users/henrique/Downloads/Applications/Tutorial6 2/MainWindow.xib"
+s312416627.401442
+e312416628.865849
+r1
+xCompileXIB
+x/Users/henrique/Downloads/Applications/Tutorial6 2/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib312416627#312416628#0(0"0(0#0#65"/Users/henrique/Downloads/Applications/Tutorial6 2/MainWindow.xib8621095104#616"    cd "/Users/henrique/Downloads/Applications/Tutorial6 2"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app/MainWindow.nib" "/Users/henrique/Downloads/Applications/Tutorial6 2/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCpResource build/Release-iphonesimulator/Tutorial6.app/Shader_texture.fsh Shaders/Shader_texture.fsh
+s312416627.399888
+e312416627.411740
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Tutorial6.app/Shader_texture.fsh
+xShaders/Shader_texture.fsh
+lSLF07#2@31"Copy Shaders/Shader_texture.fsh312416627#312416627#0(0"0(0#0#77"/Users/henrique/Downloads/Applications/Tutorial6 2/Shaders/Shader_texture.fsh8620881888#537"    cd "/Users/henrique/Downloads/Applications/Tutorial6 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/henrique/Downloads/Applications/Tutorial6 2/Shaders/Shader_texture.fsh" "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app"0#
+
+CCpResource build/Release-iphonesimulator/Tutorial6.app/Shader_texture.vsh Shaders/Shader_texture.vsh
+s312416627.400716
+e312416627.414353
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Tutorial6.app/Shader_texture.vsh
+xShaders/Shader_texture.vsh
+lSLF07#2@31"Copy Shaders/Shader_texture.vsh312416627#312416627#0(0"0(0#0#77"/Users/henrique/Downloads/Applications/Tutorial6 2/Shaders/Shader_texture.vsh8620851648#537"    cd "/Users/henrique/Downloads/Applications/Tutorial6 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/henrique/Downloads/Applications/Tutorial6 2/Shaders/Shader_texture.vsh" "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app"0#
+
+CCpResource build/Release-iphonesimulator/Tutorial6.app/rockwall.png rockwall.png
+s312416628.876573
+e312416628.952145
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Tutorial6.app/rockwall.png
+xrockwall.png
+lSLF07#2@17"Copy rockwall.png312416628#312416628#0(0"0(0#0#63"/Users/henrique/Downloads/Applications/Tutorial6 2/rockwall.png8622118048#523"    cd "/Users/henrique/Downloads/Applications/Tutorial6 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/henrique/Downloads/Applications/Tutorial6 2/rockwall.png" "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app"0#
+
+CCpResource build/Release-iphonesimulator/Tutorial6.app/rockwall_32.png rockwall_32.png
+s312416628.867110
+e312416628.889155
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Tutorial6.app/rockwall_32.png
+xrockwall_32.png
+lSLF07#2@20"Copy rockwall_32.png312416628#312416628#0(0"0(0#0#66"/Users/henrique/Downloads/Applications/Tutorial6 2/rockwall_32.png8617711360#526"    cd "/Users/henrique/Downloads/Applications/Tutorial6 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/henrique/Downloads/Applications/Tutorial6 2/rockwall_32.png" "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app"0#
+
+CCpResource build/Release-iphonesimulator/Tutorial6.app/rockwall_bump.png rockwall_bump.png
+s312416628.886051
+e312416628.944416
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Tutorial6.app/rockwall_bump.png
+xrockwall_bump.png
+lSLF07#2@22"Copy rockwall_bump.png312416628#312416628#0(0"0(0#0#68"/Users/henrique/Downloads/Applications/Tutorial6 2/rockwall_bump.png8621619776#528"    cd "/Users/henrique/Downloads/Applications/Tutorial6 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/henrique/Downloads/Applications/Tutorial6 2/rockwall_bump.png" "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app"0#
+
+CCpResource build/Release-iphonesimulator/Tutorial6.app/rockwall_normal.png rockwall_normal.png
+s312416628.872498
+e312416628.951895
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Tutorial6.app/rockwall_normal.png
+xrockwall_normal.png
+lSLF07#2@24"Copy rockwall_normal.png312416628#312416628#0(0"0(0#0#70"/Users/henrique/Downloads/Applications/Tutorial6 2/rockwall_normal.png8622235456#530"    cd "/Users/henrique/Downloads/Applications/Tutorial6 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/henrique/Downloads/Applications/Tutorial6 2/rockwall_normal.png" "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app"0#
+
+CCpResource build/Release-iphonesimulator/Tutorial6.app/rockwall_normal_32.png rockwall_normal_32.png
+s312416628.868120
+e312416628.902398
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Tutorial6.app/rockwall_normal_32.png
+xrockwall_normal_32.png
+lSLF07#2@27"Copy rockwall_normal_32.png312416628#312416628#0(0"0(0#0#73"/Users/henrique/Downloads/Applications/Tutorial6 2/rockwall_normal_32.png8615390112#533"    cd "/Users/henrique/Downloads/Applications/Tutorial6 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/henrique/Downloads/Applications/Tutorial6 2/rockwall_normal_32.png" "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app"0#
+
+CCpResource build/Release-iphonesimulator/Tutorial6.app/rockwall_relief.png rockwall_relief.png
+s312416628.878635
+e312416628.952853
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Tutorial6.app/rockwall_relief.png
+xrockwall_relief.png
+lSLF07#2@24"Copy rockwall_relief.png312416628#312416628#0(0"0(0#0#70"/Users/henrique/Downloads/Applications/Tutorial6 2/rockwall_relief.png8621915328#530"    cd "/Users/henrique/Downloads/Applications/Tutorial6 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/henrique/Downloads/Applications/Tutorial6 2/rockwall_relief.png" "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app"0#
+
+CCpResource build/Release-iphonesimulator/Tutorial6.app/rockwall_relief2.png rockwall_relief2.png
+s312416628.881990
+e312416628.953605
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Tutorial6.app/rockwall_relief2.png
+xrockwall_relief2.png
+lSLF07#2@25"Copy rockwall_relief2.png312416628#312416628#0(0"0(0#0#71"/Users/henrique/Downloads/Applications/Tutorial6 2/rockwall_relief2.png8621810528#531"    cd "/Users/henrique/Downloads/Applications/Tutorial6 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/henrique/Downloads/Applications/Tutorial6 2/rockwall_relief2.png" "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app"0#
+
+CCpResource build/Release-iphonesimulator/Tutorial6.app/rockwall_relief3.png rockwall_relief3.png
+s312416628.883694
+e312416629.011301
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Tutorial6.app/rockwall_relief3.png
+xrockwall_relief3.png
+lSLF07#2@25"Copy rockwall_relief3.png312416628#312416629#0(0"0(0#0#71"/Users/henrique/Downloads/Applications/Tutorial6 2/rockwall_relief3.png8621712160#531"    cd "/Users/henrique/Downloads/Applications/Tutorial6 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/henrique/Downloads/Applications/Tutorial6 2/rockwall_relief3.png" "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app"0#
+
+CCpResource build/Release-iphonesimulator/Tutorial6.app/texture.png texture.png
+s312416628.865945
+e312416628.888904
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Tutorial6.app/texture.png
+xtexture.png
+lSLF07#2@16"Copy texture.png312416628#312416628#0(0"0(0#0#62"/Users/henrique/Downloads/Applications/Tutorial6 2/texture.png8619416640#522"    cd "/Users/henrique/Downloads/Applications/Tutorial6 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/henrique/Downloads/Applications/Tutorial6 2/texture.png" "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app"0#
+
+CCpResource build/Release-iphonesimulator/Tutorial6.app/wood_ipod.png wood_ipod.png
+s312416628.894289
+e312416629.012932
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Tutorial6.app/wood_ipod.png
+xwood_ipod.png
+lSLF07#2@18"Copy wood_ipod.png312416628#312416629#0(0"0(0#0#64"/Users/henrique/Downloads/Applications/Tutorial6 2/wood_ipod.png8621320960#524"    cd "/Users/henrique/Downloads/Applications/Tutorial6 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/henrique/Downloads/Applications/Tutorial6 2/wood_ipod.png" "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app"0#
+
+CCpResource build/Release-iphonesimulator/Tutorial6.app/wood_ipod_relief.png wood_ipod_relief.png
+s312416628.889429
+e312416628.945077
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Tutorial6.app/wood_ipod_relief.png
+xwood_ipod_relief.png
+lSLF07#2@25"Copy wood_ipod_relief.png312416628#312416628#0(0"0(0#0#71"/Users/henrique/Downloads/Applications/Tutorial6 2/wood_ipod_relief.png8621556672#531"    cd "/Users/henrique/Downloads/Applications/Tutorial6 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/henrique/Downloads/Applications/Tutorial6 2/wood_ipod_relief.png" "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app"0#
+
+CGenerateDSYMFile "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app.dSYM" "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app/Tutorial6"
+s312416633.159555
+e312416633.181100
+r1
+xGenerateDSYMFile
+x/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app.dSYM
+x/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app/Tutorial6
+lSLF07#2@119"GenerateDSYMFile build/Release-iphonesimulator/Tutorial6.app.dSYM build/Release-iphonesimulator/Tutorial6.app/Tutorial6312416633#312416633#0(0"0(0#0#104"/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app/Tutorial68619878848#435"    cd "/Users/henrique/Downloads/Applications/Tutorial6 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app/Tutorial6" -o "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app.dSYM"0#
+
+CLd "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app/Tutorial6" normal i386
+s312416633.069515
+e312416633.159445
+r1
+xLd
+x/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app/Tutorial6
+xnormal
+xi386
+lSLF07#2@109"Link /Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app/Tutorial6312416633#312416633#0(0"0(0#0#0"8620318848#1030"    cd "/Users/henrique/Downloads/Applications/Tutorial6 2"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk "-L/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator" "-F/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator" -filelist "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Objects-normal/i386/Tutorial6.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework OpenGLES -framework QuartzCore -framework CoreGraphics -o "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app/Tutorial6"0#
+
+CProcessInfoPlistFile "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app/Info.plist" Tutorial6-Info.plist
+s312416627.370964
+e312416627.399789
+r1
+xProcessInfoPlistFile
+x/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app/Info.plist
+xTutorial6-Info.plist
+lSLF07#2@28"Process Tutorial6-Info.plist312416627#312416627#0(0"0(0#0#71"/Users/henrique/Downloads/Applications/Tutorial6 2/Tutorial6-Info.plist8620162176#531"    cd "/Users/henrique/Downloads/Applications/Tutorial6 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Tutorial6-Info.plist -genpkginfo "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app/Info.plist"0#
+
+CProcessPCH /var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tutorial6_Prefix-blqxmvyytojzjcgpdnjbzaemxzyg/Tutorial6_Prefix.pch.gch Tutorial6_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s312416629.013051
+e312416632.139237
+r1
+xProcessPCH
+x/var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tutorial6_Prefix-blqxmvyytojzjcgpdnjbzaemxzyg/Tutorial6_Prefix.pch.gch
+xTutorial6_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile Tutorial6_Prefix.pch312416629#312416632#0(0"0(0#0#71"/Users/henrique/Downloads/Applications/Tutorial6 2/Tutorial6_Prefix.pch8621070912#2041"    cd "/Users/henrique/Downloads/Applications/Tutorial6 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-generated-files.hmap" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-own-target-headers.hmap" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-all-target-headers.hmap" -iquote "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-project-headers.hmap" "-F/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/include" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/DerivedSources/i386" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -c "/Users/henrique/Downloads/Applications/Tutorial6 2/Tutorial6_Prefix.pch" -o /var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tutorial6_Prefix-blqxmvyytojzjcgpdnjbzaemxzyg/Tutorial6_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tutorial6_Prefix-hfoabnkqjbpvxoaoxkwomsynbmjq/Tutorial6_Prefix.pch.gch Tutorial6_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+s312416629.013987
+e312416631.089722
+r1
+xProcessPCH
+x/var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tutorial6_Prefix-hfoabnkqjbpvxoaoxkwomsynbmjq/Tutorial6_Prefix.pch.gch
+xTutorial6_Prefix.pch
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile Tutorial6_Prefix.pch312416629#312416631#0(0"0(0#0#71"/Users/henrique/Downloads/Applications/Tutorial6 2/Tutorial6_Prefix.pch8620994080#1987"    cd "/Users/henrique/Downloads/Applications/Tutorial6 2"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-generated-files.hmap" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-own-target-headers.hmap" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-all-target-headers.hmap" -iquote "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/Tutorial6-project-headers.hmap" "-F/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/include" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/DerivedSources/i386" "-I/Users/henrique/Downloads/Applications/Tutorial6 2/build/Tutorial6.build/Release-iphonesimulator/Tutorial6.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -c "/Users/henrique/Downloads/Applications/Tutorial6 2/Tutorial6_Prefix.pch" -o /var/folders/j4/j4-EqZ4CHWygGJKTLJBeQU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Tutorial6_Prefix-hfoabnkqjbpvxoaoxkwomsynbmjq/Tutorial6_Prefix.pch.gch0#
+
+CTouch "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app"
+s312416633.181193
+e312416633.184587
+r1
+xTouch
+x/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app
+lSLF07#2@100"Touch /Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app312416633#312416633#0(0"0(0#0#0"8619747744#310"    cd "/Users/henrique/Downloads/Applications/Tutorial6 2"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/henrique/Downloads/Applications/Tutorial6 2/build/Release-iphonesimulator/Tutorial6.app"0#
+
